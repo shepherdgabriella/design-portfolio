@@ -76,3 +76,21 @@ h2 {
     box-sizing: border-box;
     backdrop-filter: blur(10px);
 }
+
+.sections { flex-basis: 100%; }
+.sections .summary { font-size: 15px; opacity: 0.75; max-width: 900px; line-height: 1.6; margin: 0 10px 30px; }
+.sections .stats { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px; }
+.sections .stat { flex: 1; min-width: 200px; background-color: rgba(255, 255, 255, 0.03); border-radius: 10px; padding: 22px; box-sizing: border-box; }
+.sections .stat b { display: block; font-size: 34px; margin-bottom: 6px; }
+.sections .stat span { display: block; font-size: 11px; opacity: 0.65; text-transform: uppercase; line-height: 1.4; }
+.sections .sec { margin: 50px 10px 10px; }
+.sections .sec small { display: block; font-size: 12px; opacity: 0.5; letter-spacing: 2px; margin-bottom: 6px; }
+.sections .cardGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 10px; margin: 10px; }
+.sections .card { background-color: rgba(255, 255, 255, 0.03); border-radius: 10px; padding: 25px; box-sizing: border-box; font-size: 13px; line-height: 1.6; }
+.sections .card h3 { text-transform: uppercase; font-size: 15px; margin: 0 0 12px 0; }
+.sections .card ul { padding-left: 18px; margin: 6px 0; }
+.sections .card p { margin: 4px 0; }
+.sections .card .tag { display: block; font-size: 10px; opacity: 0.5; text-transform: uppercase; letter-spacing: 1px; margin-top: 12px; }
+.sections .cardFig { width: 100%; margin-top: 14px; border-radius: 10px; cursor: pointer; }
+.sections .cardFig.fullscreen { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100vw; height: 100vh; margin: 0; object-fit: contain; z-index: 1000; padding: 30px; box-sizing: border-box; backdrop-filter: blur(10px); }
+.sections .note { font-size: 12px; opacity: 0.55; margin: 20px 10px; }
