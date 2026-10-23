@@ -28,9 +28,8 @@
       "scattershield.png"
     ],
     "specs": [
-      "Independently learned AC (aluminum) TIG wedling to expand in house manufacturing capabilities",
+      "Independently learned AC (aluminum) TIG welding to expand in house manufacturing capabilities",
       "First project: a 50 thou Motor Scatter Shield",
-      "After much trial and error, a success!"
     ]
   },
   {
@@ -41,9 +40,14 @@
       "orion_back.JPG"
     ],
     "specs": [
+      "Requirements: must interface with existing drivetrain and brake assemblies while satifying FSAE rule requirements",
+      "Validated bolts for 2.3 kN shear loads via hand calculations under an M4 sized bolt constraint",
+       "Incorporated DFM by optimizing geometry for 2D laser-cutting and weldability",
+       "Built ANSYS simulation to enable load-path driven pocketing and quick iteration",
+        "Analysed worst-case load conditions to prevent excessive stress and buckling",
+         "Implemented parametric CAD updates across part and greater drivetrain assembly",
       "reduced ANSYS simulation solving time by refining mesh only around stress concentrations and modeling simplified bolt geometry",
       "Learned Steel/DC TIG welding an welded the 4140 steel component",
-      "Designed to interface seamlessly within existing drivetrain and brake assembly constraints"
     ]
   }
 ]
